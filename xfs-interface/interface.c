@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <stdio.h>
 
 /* For command completion. */
 #include <readline/readline.h>
@@ -11,7 +12,7 @@
 #include "fileSystem.h"
 #include "exception.h"
 #include "diskUtility.h"
-#include <stdio.h>
+
 //declarations for macos
 #ifdef __APPLE__
     int isspace();
